@@ -1,0 +1,17 @@
+.submenu{
+    font-size: 2.5vmin;
+    background-color: #434653;
+    width: 100%;
+	border-radius: 8px;
+}
+.submenu li{
+    text-align: left;
+    margin-top: 0.1rem;
+    padding-left: 1.5em;
+    padding-top: 0.15em;
+    width: 11.5vw;
+}
+.submenu li a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}

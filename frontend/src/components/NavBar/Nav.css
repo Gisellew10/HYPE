@@ -1,0 +1,98 @@
+.navbar{
+    position: fixed !important;
+    width: 100vw;
+    z-index: 10;
+    background-color: #292A2E !important;
+    height: 13vh;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content-wrapper {
+    padding-bottom: 13vh;
+    background-color: #292A2E
+}
+.leftNav {
+    width: 60%;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2%;
+}
+.leftNav li{
+    width: 25%;
+}
+.leftNav li a{
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.leftNav a .text-wrapper{
+    font-size: 1.5vw;
+    padding: 0;
+}
+.leftNav a img{
+    width: 1.5vw;
+}
+.rightNav {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+    height: 4vh;
+}
+#chat{
+    width: min-content;
+    margin-right: 10%;
+}
+#profile{
+    width: 80%;
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap;
+}
+.rightNav li{
+    display: flex;
+    align-items: center;
+}
+#profile a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#profile .text-wrapper{
+    width: 60%;
+    font-size: 1.5vw;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+    flex-grow: 1; 
+}
+.rightNav a img{
+    width: 1.5vw;
+}
+.leftNav li a #home{
+    width: 60%;
+}
+#profile a:hover {
+	padding-bottom: 0.25em;
+    text-decoration: none;
+}
+#profile:hover {
+	background-color: #434653;
+	border-radius: 8px;
+	text-decoration: none;
+	color: #699bb6;
+}
+#here a{
+    color: #ffed7b;
+    text-decoration: none; 
+}
+#here a :hover{
+    color: #ffed7b;
+    text-decoration: none;
+    cursor: default;
+}

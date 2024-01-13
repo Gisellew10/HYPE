@@ -1,0 +1,277 @@
+.chatPage {
+    display: flex;
+    font-size: 1.5em;
+    background-color: #292A2E;
+    height: 100vh;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    width: 26vw;
+    margin-left: 7vw;
+    background-color: #222225;
+    height: 80vh;
+    margin-top: 2vh;
+    border-radius: 5vh 0px 0px 5vh;
+    overflow: scroll;
+}
+
+.side #chatList {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    background-color: #222225;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    padding-left: 3vw;
+    padding-right: 2vw;
+}
+
+#chatIcon {
+    margin-right: 10px;
+    margin-top: 4px;
+    width: 35px;
+    height: 35px;
+}
+
+#chatList p {
+    color: whitesmoke;
+    width: 80%;
+}
+
+#close {
+    border: 1px solid transparent;
+    background-color: #222225;
+    color: whitesmoke;
+}
+
+#close:hover {
+    color: #598fee;
+}
+
+:focus {
+    outline: none;
+}
+
+::-moz-focus-inner {
+    border: 0;
+}
+
+#chatList:hover {
+    background-color: #1d1d20;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    transform: translateY(-1px);
+    cursor: pointer;
+}
+
+#chatList:hover #close {
+    background-color: #1d1d20;
+}
+
+.chatBody {
+    width: 60vw;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d21;
+    height: 80vh;
+    border-radius: 0px 5vh 5vh 0px;
+}
+
+.chatHead {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 0px 5vh 0px 0px;
+    background-color: #131316;
+}
+
+#messageWrap {
+    margin-top: 5vh;
+    margin-left: 2vw;
+    width: 56vw;
+    height: 50vh;
+    margin-right: 2vw;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.others,
+.me {
+    width: max-content;
+    max-width: 50%;
+    min-width: 7%;
+}
+
+.others {
+    align-self: flex-start;
+}
+
+.me {
+    align-self: self-end;
+}
+
+.others p,
+.me p {
+    align-self: flex-start;
+    margin-top: 2vh;
+    padding: 1.5vh;
+    background-color: #abb0b8;
+    color: #131316;
+    border-radius: 2vh;
+}
+
+.others p{
+    margin-top: 0;
+}
+
+.me p {
+    background-color: #4169b0;
+    color: whitesmoke;
+}
+
+p {
+    margin: 0;
+    text-align: left;
+}
+
+.sideFunction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6vh;
+    margin-bottom: 2vh;
+}
+
+#search {
+    width: 80%;
+    padding: 1vh;
+    border-radius: 1vh;
+}
+
+ul.results {
+    list-style-type: none;
+    background-color: #222225;
+    color: rgb(198, 198, 198);
+    font-size: 16px;
+    margin-left: 6vh;
+    margin-right: 14vh;
+    padding: 0;
+    text-align: left;
+}
+
+li.resultItem:hover {
+    color: white;
+    background-color: #545458;
+    cursor: pointer;
+}
+
+li.resultItem {
+    padding-left: 8px;
+}
+
+.others .time,
+.me .time {
+    margin: 0;
+    padding-top: 0;
+    font-size: 0.7em;
+    text-align: end;
+    background-color: #1d1d21;
+    color: whitesmoke;
+}
+
+.sendMsg {
+    width: 60%;
+    padding: 1vh;
+    border-radius: 5vh;
+    background-color: #abb0b8;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-top: 5vh;
+}
+
+#newMsg {
+    background-color: transparent;
+    border: 0;
+    border-radius: 5vh;
+    width: 84%;
+    padding: 2%;
+    margin-right: 2%;
+}
+
+#sendButton {
+    border-radius: 3vh;
+    background-color: #222225;
+    color: whitesmoke;
+    padding: 2% 4% 2% 4%;
+    border: 0;
+}
+
+.delete_message p {
+    position: relative;
+    height: 35px;
+    width: 60px;
+    background-color: #5E5BFF;
+    font-size: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    border-radius: 0px 10px 10px 10px;
+    margin: 5px;
+}
+
+.delete-success-message {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    margin: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #666;
+}
+
+::-webkit-scrollbar-track:horizontal {
+    background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+::-webkit-scrollbar-corner {
+    background: rgba(0, 0, 0, 0);
+}
+
+.circleIcon {
+	  width: 50px;
+	  height: 50px;
+	  border-radius: 50%;
+	  object-fit: cover;
+}
+
+.memberName{
+    color: aliceblue;
+    font-size: 0.9vw;
+    text-align: start;
+    margin-left: 0.5vw;
+}

@@ -1,0 +1,91 @@
+
+.studentListPage {
+    display: flex;
+    background-color: #292A2E;
+    height: 100vh;
+}
+
+.formContainer {
+	display: flex;
+	justify-content: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 9%;
+}
+
+.searchInput {
+	width: 400px;
+}
+
+.filterSearch {
+	width: 200px;
+}
+
+#studentPic {
+	width: 15%;
+}
+
+#github {
+	position: relative;
+	left: -31%;
+}
+
+#linkedIn {
+	position: relative;
+	left: -28%;
+}
+
+.cueCardContainer {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 30px;
+	column-gap: 20px;
+}
+
+.topContainer {
+	display: flex;
+	column-gap: 20px;
+	margin-top: 4%;
+	margin-left: 4%;
+}
+
+.middleContainer {
+	color: #a1bac8;
+	font-size: 12px;
+	font-weight: 500;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 3px;
+	flex-wrap: wrap;
+	margin-top: 3%;
+	margin-left: 5%;
+}
+
+.bottomContainer {
+	position: relative;
+	bottom: -5%;
+}
+
+.cueCard {
+	background-color: #1b2028;
+	border-radius: 15px;
+	width: 358px;
+	height: 220px;
+}
+
+.studentName {
+	color: #bfd0da;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.teamName {
+	color: #bfd0da;
+	font-size: 16px;
+	font-weight: 400;
+}
+  

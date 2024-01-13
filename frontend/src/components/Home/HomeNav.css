@@ -1,0 +1,39 @@
+.homeNavbar{
+    z-index: 1;
+    position: absolute;
+}
+#logo{
+    display: flex;
+    position: fixed;
+    margin-top: 2.5%;
+    top: 0;
+    left: 2%;
+    right: 0;
+    width: 8rem;
+    scale: 80%;
+  }
+
+.homeNav-items{
+    width: 40vw;
+    position: fixed;
+    left: 50vw;
+    font-size: 2.9vmin;
+    top: 2rem;
+    display: flex;
+}
+li{
+    width: 100%;
+    list-style-type: none;
+}
+li a{
+    color: rgb(100, 151, 217);
+    text-decoration: none;
+}
+li a:hover{
+    color: #FFF2A3;
+}
+
+.homeNav-dropitem a:hover{
+    text-decoration: none;
+    cursor: default;
+}

@@ -1,0 +1,23 @@
+section{
+    overflow: hidden;
+    height: 100vh;
+}
+.HomeContent{
+    width: 45%;
+    position: absolute;
+    text-align: left;
+    top: 40%;
+    left: 5%;
+    position: absolute;
+    z-index: 1;
+}
+p{
+    color: #B3C4DE;
+}
+#title{
+    font-size: 5vmin;
+}
+#subtitle{
+    font-size: 3vmin;
+    margin-left: 10%;
+}

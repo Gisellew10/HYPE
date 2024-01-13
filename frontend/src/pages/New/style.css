@@ -1,0 +1,9 @@
+.internPage {
+    background-color: #292A2E;
+    height: 100vh;
+}
+#title{
+    font-size: 5vmin;
+    margin-top: 10%;
+    margin-left: 10%;
+}
